@@ -12,6 +12,7 @@ const Login = () => (
       <PabloSignIn className='illustration' />
     </section>
     <section className='login-section'>
+      <Logo className='mobile-logo'/>
       <h1>Welcome!</h1>
       <p>Enter details to login.</p>
       <form action='' className='form-container'>
