@@ -29,6 +29,9 @@ $font-12: 12px;
         padding: 120px 80px;
         box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
 
+        .mobile-logo {
+            display: none;
+        }
 
         .form-container {
             display: flex;
@@ -95,6 +98,10 @@ $font-12: 12px;
             .login-section {
                 width: 100%;
                 box-shadow: none;
+
+                .mobile-logo {
+                    display: block;
+                }
             }
 
             .form-container {
